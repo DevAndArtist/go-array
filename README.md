@@ -17,6 +17,15 @@ RegisterType(value interface{})
 ```go
 RegisteredTypes() []string
 ```
+
+**Types:**
+```go
+type Element interface{}
+
+type Array struct {
+  // contains filtered or unexported fields
+}
+```
   
 **Array constructor:**
 ```go
